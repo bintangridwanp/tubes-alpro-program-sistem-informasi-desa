@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func main() {
 	pesanSapaan()
 	initDefaultData()
-	for {
+	var pilih string
+	for pilih != "4" {
 		fmt.Println("╔═════════════════════════════════╗")
 		fmt.Println("║          Menu Utama             ║")
 		fmt.Println("╚═════════════════════════════════╝")
@@ -21,20 +21,14 @@ func main() {
 		fmt.Scanln(&pilih)
 
 		if pilih == "1" {
-			if kelolaDataDesa() == "main" {
-				continue
-			}
+			kelolaDataDesa()
 		} else if pilih == "2" {
-			if kelolaDataPenduduk() == "main" {
-				continue
-			}
+			kelolaDataPenduduk()
 		} else if pilih == "3" {
-			if kelolaLaporanUMKM() == "main" {
-				continue
-			}
+			kelolaLaporanUMKM()
 		} else if pilih == "4" {
 			fmt.Println("Program dihentikan.")
-			os.Exit(0)
+			continue
 		} else {
 			fmt.Println("Pilihan tidak valid.")
 		}
