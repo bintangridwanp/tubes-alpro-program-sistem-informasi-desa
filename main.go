@@ -17,7 +17,6 @@ func main() {
 		fmt.Println("3. Laporan UMKM")
 		fmt.Println("4. Hentikan program")
 		fmt.Print("Silakan pilih opsi Anda: ")
-		var pilih string
 		fmt.Scanln(&pilih)
 
 		if pilih == "1" {
