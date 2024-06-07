@@ -71,18 +71,18 @@ func initDefaultData() {
 
 func initDefaultDataUMKM() {
 	// Inisialisasi data UMKM untuk Desa Mekarsari
-	umkmList[0][0] = UMKM{"Toko Sembako Mekarsari", 10000000}
-	umkmList[0][1] = UMKM{"Warung Nasi Uduk Mekarsari", 15000000}
-	umkmList[0][2] = UMKM{"Bengkel Motor Mekarsari", 20000000}
-	umkmList[0][3] = UMKM{"Toko Elektronik Mekarsari", 30000000}
-	umkmList[0][4] = UMKM{"Kedai Kopi Mekarsari", 25000000}
+	umkmList[0][0] = UMKM{"Toko A", 10000000}
+	umkmList[0][1] = UMKM{"Toko B", 15000000}
+	umkmList[0][2] = UMKM{"Toko C", 20000000}
+	umkmList[0][3] = UMKM{"Toko D", 30000000}
+	umkmList[0][4] = UMKM{"Toko E", 25000000}
 	umkmCount[0] = 5
 
 	// Inisialisasi data UMKM untuk Desa Bakti
-	umkmList[1][0] = UMKM{"Toko Sembako Bakti", 12000000}
-	umkmList[1][1] = UMKM{"Warung Nasi Uduk Bakti", 13000000}
-	umkmList[1][2] = UMKM{"Bengkel Motor Bakti", 18000000}
-	umkmList[1][3] = UMKM{"Toko Elektronik Bakti", 28000000}
-	umkmList[1][4] = UMKM{"Kedai Kopi Bakti", 22000000}
+	umkmList[1][0] = UMKM{"Toko 5", 12000000}
+	umkmList[1][1] = UMKM{"Toko 4", 13000000}
+	umkmList[1][2] = UMKM{"Toko 3", 18000000}
+	umkmList[1][3] = UMKM{"Toko 2", 28000000}
+	umkmList[1][4] = UMKM{"Toko 1", 22000000}
 	umkmCount[1] = 5
 }
